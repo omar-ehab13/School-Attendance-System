@@ -11,4 +11,4 @@ All issues on my code I will work in it.
 - Demo data in Data folder in DAL layer. I think it also not right think, I was want to add some fake data using Bogus library but the right way I think in another structure
 - There is no unit test: I want to add layer for testing my services
 - Bad design Services in BLL layer: in login I want to return data for each user and this data not in the same model so I made bad design and tightly couple design between users services and account service then I make FactoryService to overlap the circular dependancy injection: it is really bad design and I will work to refactor it.
-- All endpoints routes is in unconvient manner: like: [GET] api/parents/all, the best is [GET]: api/parents 
+- Some endpoints routes is in unconvient manner: like: [GET] api/parents/all, the best is [GET]: api/parents 
